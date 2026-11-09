@@ -2,6 +2,7 @@ name: Coze daily credit
 
 on:
   schedule:
+    - cron: "13 13 * * *"
     - cron: "1 16 * * *"
   workflow_dispatch:
 
